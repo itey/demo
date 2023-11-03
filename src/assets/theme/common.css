@@ -1,0 +1,132 @@
+.text-primary-color {
+	color: #00F9E5;
+}
+
+.common-btn1 {
+	width: 188px;
+	background: linear-gradient(-21deg, #50CED5 0%, #46D1AF 100%) !important;
+	border-radius: 7px;
+}
+
+.common-btn1:disabled {
+	background: linear-gradient(-16deg, #848D98, #97A8A7) !important;
+}
+
+.common-btn2 {
+	width: 188px;
+	background: linear-gradient(-16deg, #4195F6, #17E7D6) !important;
+	border-radius: 7px;
+	color: #1A2127;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.common-btn2:disabled {
+	background: linear-gradient(-16deg, #848D98, #97A8A7) !important;
+}
+
+.common-border {
+	width: 188px;
+	background: transparent !important;
+	border: 1px solid #26BEEF;
+	border-radius: 7px;
+}
+
+.common-border:disabled {
+	background: transparent !important;
+}
+
+/* el-pagination */
+.el-pagination {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 0 0;
+}
+
+.el-pager li {
+	padding: 0 0;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+	margin-left: 0;
+	margin-right: 6px;
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #12C7B8;
+	border-radius: 6px;
+	font-size: 12px;
+	line-height: 30px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #12C7B8;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background: #12C7B8;
+	background-color: #12C7B8;
+	border-radius: 6px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+	background-color: transparent;
+}
+
+.el-pagination.is-background .btn-next {
+	width: auto;
+	height: 30px;
+	border: none;
+	border-radius: 6px;
+	font-size: 9px;
+	line-height: 30px;
+	background: #12C7B8;
+	font-weight: bold;
+	color: #FFFFFF;
+	min-width: 63px;
+	padding: 0 8px;
+	position: absolute;
+	right: 0;
+}
+
+.el-pagination.is-background .btn-next span {
+	line-height: 30px;
+}
+
+.el-input__inner{
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #313838;
+	border-radius: 6px;
+}
+.el-input__inner:hover {
+    border-color: #00F9E5;
+}
+.el-input__inner:focus {
+    border-color: #00F9E5;
+	border: 1px solid #00F9E5;
+	border-radius: 6px;
+}
+
+.el-textarea__inner{
+	background-color: transparent;
+	border: 1px solid #313838;
+	border-radius: 4px;
+}
+.el-textarea__inner:focus {
+    outline: 0;
+    border-color: #0E161D;
+	border: 1px solid #00F9E5;
+	border-radius: 6px;
+}
+.el-menu-item:focus, .el-menu-item:hover {
+    background-color: transparent;
+}
